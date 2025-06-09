@@ -600,6 +600,7 @@
         background: 0 0;
         transform: rotate(0deg);
         transition: 0.35s ease-in-out;
+       
     }
     .menu-mobile-trigger span {
         display: block;

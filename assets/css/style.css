@@ -6370,9 +6370,13 @@ body {
 }
 
 .logo img{
-    height: 100px;
+    height: 80px;
 }
-
+@media (max-width: 767px) {
+  .logo img {
+    height: 50px; 
+  }
+}
 .navbar-wrapper .logo img{
     padding-top: 10px;
 }
