@@ -6400,3 +6400,18 @@ body {
     top: 150px;
   }
 }
+.navbar-wrapper h3{
+    color: #fff;
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+
+
+@media (max-width: 767px) {
+  .navbar-wrapper h3{
+   position: relative;
+   top: 10px;
+}
+
+}
