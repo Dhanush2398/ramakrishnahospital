@@ -363,7 +363,7 @@ body {
 }
 
 .ptb-120 {
-    padding-top: 120px;
+    padding-top: 20px;
     padding-bottom: 120px;
 }
 
@@ -2368,9 +2368,7 @@ body {
 .about-area.style-one .about-img-wrap .about-img img {
     border-radius: 175px;
 }
-.about-img img{
-    height: 300px;
-}
+
 .about-area.style-one .about-img-wrap .book-doctor {
     top: 50%;
     left: 50%;
@@ -2458,12 +2456,6 @@ body {
     max-width: 20px;
 }
 
-.about-area.style-two .about-img-wrap .about-img {
-    
-    height: 559px;
-    width: 300px;
-    margin-left: auto;
-}
 
 .about-area.style-two .about-img-wrap .booking-doctor {
     position: absolute;
@@ -6379,4 +6371,32 @@ body {
 }
 .navbar-wrapper .logo img{
     padding-top: 10px;
+}
+
+.about-img img{
+    height: 400px;
+}
+
+.about-area.style-two .about-img-wrap .about-img {
+    height: 559px;
+    width: 300px;
+    margin-left: auto;
+}
+
+@media (max-width: 767px) {
+  .about-img-two img {
+    position: relative; 
+    top: 100px;
+  }
+  .about-img img{
+    height: 250px;
+    width: auto;
+}
+}
+
+@media (min-width: 767px) {
+  .about-img-two img {
+    position: relative; 
+    top: 150px;
+  }
 }
