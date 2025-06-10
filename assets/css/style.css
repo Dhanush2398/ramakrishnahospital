@@ -6415,3 +6415,8 @@ body {
 }
 
 }
+
+
+.text-title {
+    color: var(--titleColor);
+}
