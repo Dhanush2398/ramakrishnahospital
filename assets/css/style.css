@@ -6422,3 +6422,7 @@ body {
 .text-title {
     color: var(--titleColor);
 }
+
+.title-logo img{
+    height: 100px;
+}
