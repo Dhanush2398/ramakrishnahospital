@@ -4598,7 +4598,7 @@ body {
 }
 
 .promo-video.style-two {
-    background-image: url(../img/2.jpg);
+    background-image: url(../img/gallery/1.jpeg);
     height: 500px;
 }
 
@@ -6407,6 +6407,12 @@ body {
     left: 10px;
     font-size: 22px;
     font-weight: 900;
+}
+
+@media (max-width: 320px) {
+  .navbar-wrapper h3 {
+    font-size: 16px;
+  }
 }
 
 
