@@ -258,6 +258,7 @@
 .navbar-area.style-two {
     position: relative;
     z-index: 2;
+     background-color:#000D44;
 }
 
 .navbar-area.style-two.sticky {
